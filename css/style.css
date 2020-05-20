@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mansalva', cursive;
+}
+
+.game-holder {
+  width: 700px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.game-nav {
+  margin-bottom: 25px;
+}
+
+.game-nav:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.game-nav > span {
+  float: right;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.2;
+}
+
+#canvas {
+  background: white;
+  border: 1px solid #000;
+  cursor: url(../images/aim.cur), default;
+}
+
+.game-over {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+button {
+  border: 0;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background: green;
+  color: white;
+  font-family: inherit;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+  margin-right: 10px;
+}
+
+button:hover {
+  background: #004d00;
+}
+/*# sourceMappingURL=style.css.map */
